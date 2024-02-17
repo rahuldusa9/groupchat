@@ -4,9 +4,13 @@ const io = require('socket.io')({
       methods: ["GET", "POST"]
     }
   });
-  
+
   io.listen(8000);
-  
+  const express=require('express');
+  const app=express();
+
+app.get('/',(req,res)=>{
+
 
 const users={};
 
@@ -26,6 +30,10 @@ io.on('connection',socket=>{  //listens to the users joining to the chat
         delete users[socket.id];
     });
 })
+})
+app.listen(3000,()=>{
+  console.log("the server is running");
+});
 
 
   
