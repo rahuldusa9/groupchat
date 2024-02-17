@@ -1,0 +1,66 @@
+nav{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    display: block;
+    height: 50px;
+    width: 70px;
+}
+body{
+height: 100vh;
+   background-image: linear-gradient(rgb(239, 243, 244),rgb(123,67,89));
+}
+.container{
+    border: 5px solid red;
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.message{
+    background-color: rgb(200, 200, 200);
+    
+    padding: 15px;
+    width:24%;
+    margin: 17px 2px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+.left{
+   align-self: flex-start;
+}
+.right{
+align-self: flex-end;
+}
+.buttonlogo{
+    height: 20px;
+    width: 23px;
+    padding: 4px;
+    border-radius: 2px;
+    
+}
+#chatinp{
+    background-color: rgb(0, 247, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top:17px;
+    width: 56vw;
+    
+    
+    
+    
+}
+.chatbox{
+    width: 60vw;
+    margin: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+    border: 5px solid red;
+}
